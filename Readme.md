@@ -1,4 +1,4 @@
-This repository contains a comprehensive collection of C programs developed for learning and practice purposes. Each program explores specific concepts, techniques, or problem-solving approaches in C programming, ranging from basic syntax to advanced topics like multithreading and networking
+This repository contains a comprehensive collection of C programs developed for learning and practice purposes. Each program explores specific concepts, techniques, or problem-solving approaches in C programming, ranging from basic syntax to advanced topics like multithreading and networking.
 
 Contents
 Array
