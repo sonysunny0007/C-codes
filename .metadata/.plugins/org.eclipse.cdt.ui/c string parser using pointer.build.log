@@ -1,0 +1,31 @@
+18:39:45 **** Build of configuration Debug for project c string parser using pointer ****
+make all 
+Building file: ../src/c string parser using pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c string parser using pointer.d" -MT"src/c string parser using pointer.o" -o "src/c string parser using pointer.o" "../src/c string parser using pointer.c"
+../src/c string parser using pointer.c:14:19: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+void parseString(*str){
+                  ^
+                 int
+../src/c string parser using pointer.c:15:14: warning: incompatible pointer types initializing 'const char *' with an expression of type 'int *' [-Wincompatible-pointer-types]
+        const char *start=str;
+                    ^     ~~~
+../src/c string parser using pointer.c:22:14: warning: empty character constant [-Winvalid-pp-token]
+                if(*start==''){
+                           ^
+../src/c string parser using pointer.c:22:14: error: expected expression
+../src/c string parser using pointer.c:40:14: error: incompatible integer to pointer conversion passing 'const char' to parameter of type 'int *' [-Wint-conversion]
+        parseString(*input);
+                    ^~~~~~
+../src/c string parser using pointer.c:14:19: note: passing argument to parameter 'str' here
+void parseString(*str){
+                  ^
+../src/c string parser using pointer.c:37:7: warning: unused variable 'str' [-Wunused-variable]
+        char str;
+             ^
+3 warnings and 3 errors generated.
+make: *** [src/c string parser using pointer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+18:39:45 Build Failed. 4 errors, 3 warnings. (took 73ms)
+

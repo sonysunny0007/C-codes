@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : 0.c
+ Author      : Sony
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int stringParser(char *str, int start, int end){
+	int i,j=0;
+
+
+}
+
+int main(void) {
+
+	char str[]="Edmonton";
+	stringParser(str, 0,4);
+	return EXIT_SUCCESS;
+}

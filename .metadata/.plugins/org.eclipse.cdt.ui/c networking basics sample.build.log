@@ -1,0 +1,15 @@
+09:57:38 **** Build of configuration Debug for project c networking basics sample ****
+make all 
+Building file: ../src/c networking basics sample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c networking basics sample.d" -MT"src/c networking basics sample.o" -o "src/c networking basics sample.o" "../src/c networking basics sample.c"
+Finished building: ../src/c networking basics sample.c
+ 
+Building target: c networking basics sample
+Invoking: MacOS X C Linker
+gcc  -o "c networking basics sample"  ./src/c\ networking\ basics\ sample.o   
+Finished building target: c networking basics sample
+ 
+
+09:57:39 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

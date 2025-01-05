@@ -1,0 +1,19 @@
+21:38:30 **** Incremental Build of configuration Debug for project c string parser 2.0 ****
+make all 
+Building file: ../src/c string parser 2.0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c string parser 2.0.d" -MT"src/c string parser 2.0.o" -o "src/c string parser 2.0.o" "../src/c string parser 2.0.c"
+../src/c string parser 2.0.c:22:1: warning: non-void function does not return a value [-Wreturn-type]
+   22 | }
+      | ^
+1 warning generated.
+Finished building: ../src/c string parser 2.0.c
+ 
+Building target: c string parser 2.0
+Invoking: MacOS X C Linker
+gcc  -o "c string parser 2.0"  ./src/c\ string\ parser\ 2.0.o   
+Finished building target: c string parser 2.0
+ 
+
+21:38:31 Build Finished. 0 errors, 1 warnings. (took 308ms)
+

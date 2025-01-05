@@ -1,0 +1,6 @@
+20:33:22 **** Incremental Build of configuration Debug for project c pthread automotive priority 2.0 ****
+make all 
+make: Nothing to be done for `all'.
+
+20:33:22 Build Finished. 0 errors, 0 warnings. (took 123ms)
+

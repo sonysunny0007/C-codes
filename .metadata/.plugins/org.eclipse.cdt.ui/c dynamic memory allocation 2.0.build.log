@@ -1,0 +1,6 @@
+11:08:11 **** Incremental Build of configuration Debug for project c dynamic memory allocation 2.0 ****
+make all 
+make: Nothing to be done for `all'.
+
+11:08:11 Build Finished. 0 errors, 0 warnings. (took 139ms)
+

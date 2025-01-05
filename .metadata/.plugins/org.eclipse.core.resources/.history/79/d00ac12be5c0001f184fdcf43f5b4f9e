@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : 0.c
+ Author      : Sony
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int strParser(char *str, int start, int end){
+	int len = strlen(str)-1;
+	char b[len];
+	for(int i=start;i<end;i++){
+		b[i]=str[i];
+	}
+
+	printf("The string is: %s", b);
+
+}
+
+int main(void) {
+
+	char str[]="Edmonton";
+	stringParser(str, 2,4);
+	puts("Macros and contional compilation"); /* prints Macros and contional compilation */
+	return EXIT_SUCCESS;
+}

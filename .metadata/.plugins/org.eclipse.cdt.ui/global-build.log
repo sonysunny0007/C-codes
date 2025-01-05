@@ -1,0 +1,15 @@
+22:05:24 **** Incremental Build of configuration Debug for project c linkedlist sensor data logging and procesing 2.0 ****
+make all 
+Building file: ../src/c linkedlist sensor data logging and procesing 2.0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c linkedlist sensor data logging and procesing 2.0.d" -MT"src/c linkedlist sensor data logging and procesing 2.0.o" -o "src/c linkedlist sensor data logging and procesing 2.0.o" "../src/c linkedlist sensor data logging and procesing 2.0.c"
+Finished building: ../src/c linkedlist sensor data logging and procesing 2.0.c
+ 
+Building target: c linkedlist sensor data logging and procesing 2.0
+Invoking: MacOS X C Linker
+gcc  -o "c linkedlist sensor data logging and procesing 2.0"  ./src/c\ linkedlist\ sensor\ data\ logging\ and\ procesing\ 2.0.o   
+Finished building target: c linkedlist sensor data logging and procesing 2.0
+ 
+22:05:26 **** Incremental Build of configuration Debug for project c linkedlist sensor data logging and procesing 2.0 ****
+make all 
+make: Nothing to be done for `all'.

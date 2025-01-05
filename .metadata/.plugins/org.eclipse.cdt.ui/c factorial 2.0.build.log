@@ -1,0 +1,15 @@
+09:55:12 **** Incremental Build of configuration Debug for project c factorial 2.0 ****
+make all 
+Building file: ../src/c factorial 2.0.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c factorial 2.0.d" -MT"src/c factorial 2.0.o" -o "src/c factorial 2.0.o" "../src/c factorial 2.0.c"
+Finished building: ../src/c factorial 2.0.c
+ 
+Building target: c factorial 2.0
+Invoking: MacOS X C Linker
+gcc  -o "c factorial 2.0"  ./src/c\ factorial\ 2.0.o   
+Finished building target: c factorial 2.0
+ 
+
+09:55:12 Build Finished. 0 errors, 0 warnings. (took 128ms)
+

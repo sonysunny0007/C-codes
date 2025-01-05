@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : 0.c
+ Author      : Sony
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int int_a;
+	char char_c;
+	float float_f;
+	double double_d;
+	long double long_double;
+
+
+	printf("Size of int: %d", sizeof(int_a));
+	printf("size of char: %d", sizeof(char_c));
+	printf("size of char: %d", sizeof(float_f));
+	printf("size of char: %d", sizeof(long_double));
+
+	return EXIT_SUCCESS;
+}

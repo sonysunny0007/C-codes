@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : 0.c
+ Author      : Sony
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+struct sensorData{
+	int sensorID;
+	float value;
+	time_t timestamp;
+	struct sensorData *next;
+};
+
+
+
+
+
+int main(void) {
+
+}

@@ -1,0 +1,6 @@
+16:15:59 **** Incremental Build of configuration Debug for project C macros and conditional compilation ****
+make all 
+make: Nothing to be done for `all'.
+
+16:15:59 Build Finished. 0 errors, 0 warnings. (took 94ms)
+

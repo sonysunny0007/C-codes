@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : 0.c
+ Author      : Sony
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+
+	char *ptr="malayalam";
+	printf("%c", ptr[0]);
+
+	int i;
+	int length= strlen(ptr);
+	printf("%u", length);
+
+	return EXIT_SUCCESS;
+}

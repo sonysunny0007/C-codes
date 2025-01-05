@@ -1,0 +1,27 @@
+18:39:44 **** Incremental Build of configuration Debug for project c pointer ****
+make all 
+Building file: ../src/c pointer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c pointer.d" -MT"src/c pointer.o" -o "src/c pointer.o" "../src/c pointer.c"
+../src/c pointer.c:127:19: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+        printf("q-p %d", (q-p)); //(1008-1000)/4=2
+                    ~~   ^~~~~
+                    %ld
+../src/c pointer.c:128:19: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+        printf("q-p %d", (p-q)); //(1000-1008)/4=-2
+                    ~~   ^~~~~
+                    %ld
+../src/c pointer.c:120:7: warning: variable 'd' set but not used [-Wunused-but-set-variable]
+        int *d;
+             ^
+3 warnings generated.
+Finished building: ../src/c pointer.c
+ 
+Building target: c pointer
+Invoking: MacOS X C Linker
+gcc  -o "c pointer"  ./src/c\ pointer.o   
+Finished building target: c pointer
+ 
+
+18:39:44 Build Finished. 0 errors, 3 warnings. (took 139ms)
+

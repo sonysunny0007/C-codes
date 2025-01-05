@@ -1,0 +1,22 @@
+18:39:43 **** Build of configuration Debug for project c insert node at beggining jenny ****
+make all 
+Building file: ../src/c insert node at beggining jenny.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c insert node at beggining jenny.d" -MT"src/c insert node at beggining jenny.o" -o "src/c insert node at beggining jenny.o" "../src/c insert node at beggining jenny.c"
+../src/c insert node at beggining jenny.c:14:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Node{
+^~~~~~~
+../src/c insert node at beggining jenny.c:29:17: warning: unused variable 'choice' [-Wunused-variable]
+        head=NULL; int choice;
+                       ^
+2 warnings generated.
+Finished building: ../src/c insert node at beggining jenny.c
+ 
+Building target: c insert node at beggining jenny
+Invoking: MacOS X C Linker
+gcc  -o "c insert node at beggining jenny"  ./src/c\ insert\ node\ at\ beggining\ jenny.o   
+Finished building target: c insert node at beggining jenny
+ 
+
+18:39:43 Build Finished. 0 errors, 2 warnings. (took 130ms)
+

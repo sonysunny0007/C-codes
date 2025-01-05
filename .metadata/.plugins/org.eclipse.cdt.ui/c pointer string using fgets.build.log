@@ -1,0 +1,15 @@
+18:39:45 **** Incremental Build of configuration Debug for project c pointer string using fgets ****
+make all 
+Building file: ../src/c pointer string using fgets.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c pointer string using fgets.d" -MT"src/c pointer string using fgets.o" -o "src/c pointer string using fgets.o" "../src/c pointer string using fgets.c"
+Finished building: ../src/c pointer string using fgets.c
+ 
+Building target: c pointer string using fgets
+Invoking: MacOS X C Linker
+gcc  -o "c pointer string using fgets"  ./src/c\ pointer\ string\ using\ fgets.o   
+Finished building target: c pointer string using fgets
+ 
+
+18:39:45 Build Finished. 0 errors, 0 warnings. (took 133ms)
+

@@ -1,0 +1,23 @@
+09:57:33 **** Incremental Build of configuration Debug for project c p thread semaphopre ****
+make all 
+Building file: ../src/c p thread semaphopre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c p thread semaphopre.d" -MT"src/c p thread semaphopre.o" -o "src/c p thread semaphopre.o" "../src/c p thread semaphopre.c"
+../src/c p thread semaphopre.c:58:2: warning: 'sem_init' is deprecated [-Wdeprecated-declarations]
+        sem_init(&dataReady,0,0);
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/semaphore.h:55:42: note: 'sem_init' has been explicitly marked deprecated here
+int sem_init(sem_t *, int, unsigned int) __deprecated;
+                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:214:40: note: expanded from macro '__deprecated'
+#define __deprecated    __attribute__((__deprecated__))
+                                       ^
+../src/c p thread semaphopre.c:63:35: error: use of undeclared identifier 'x'
+        pthread_join(sensorThread, NULL);x
+                                         ^
+1 warning and 1 error generated.
+make: *** [src/c p thread semaphopre.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+09:57:33 Build Failed. 2 errors, 1 warnings. (took 367ms)
+

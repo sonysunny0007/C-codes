@@ -1,0 +1,6 @@
+11:08:23 **** Incremental Build of configuration Debug for project c bitfield embedded system ****
+make all 
+make: Nothing to be done for `all'.
+
+11:08:23 Build Finished. 0 errors, 0 warnings. (took 82ms)
+
